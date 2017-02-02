@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/samsung/msm8976-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/msm8976-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/samsung/msm8976-common/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/samsung/msm8976-common/proprietary/bin/irsc_util:system/bin/irsc_util \
@@ -137,6 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
+    vendor/samsung/msm8976-common/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
