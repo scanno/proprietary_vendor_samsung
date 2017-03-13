@@ -437,7 +437,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
     
-ifeq ($(TARGET_PROVIDES_KEYMASTER),true)
+ifeq ($(TARGET_USES_SOURCEBUILD_KEYMASTER),true)
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/hw/keystore.msm8952.so:system/vendor/lib64/hw/keystore.msm8952.so
 endif
