@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -80,7 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/samsung/msm8976-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/msm8976-common/proprietary/lib/libsblcv.so:system/lib/libsblcv.so \
-    vendor/samsung/msm8976-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/msm8976-common/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/msm8976-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/samsung/msm8976-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
@@ -92,10 +91,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/samsung/msm8976-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/samsung/msm8976-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/samsung/msm8976-common/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
     vendor/samsung/msm8976-common/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
     vendor/samsung/msm8976-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/samsung/msm8976-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/samsung/msm8976-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -216,7 +213,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
-    vendor/samsung/msm8976-common/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmmcamera2_dcrf.so:system/vendor/lib/libmmcamera2_dcrf.so \
@@ -235,7 +231,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    vendor/samsung/msm8976-common/proprietary/vendor/lib/libmmcamera_cac3_lib.so:system/vendor/lib/libmmcamera_cac3_lib.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmmcamera_csidtg.so:system/vendor/lib/libmmcamera_csidtg.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
